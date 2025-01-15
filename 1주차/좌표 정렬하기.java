@@ -5,7 +5,7 @@ public class Main {
         Scanner sc = new Scanner(System.in); // 입력을 받기 위해 Scanner 객체 생성
 
         // 점의 개수 입력받기
-        int n = scanner.nextInt();
+        int n = sc.nextInt();
 
         // 점의 좌표를 저장할 2차원 배열 생성
         int[][] points = new int[n][2];
